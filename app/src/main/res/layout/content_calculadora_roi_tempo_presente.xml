@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor investido:"
+        android:layout_marginTop="10dp"
+        android:id="@+id/calc_roi_tempo_textview_valor_investido"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/calc_roi_tempo_edit_text_valor_investido"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor de retorno:"
+        android:layout_marginTop="10dp"
+        android:id="@+id/calc_roi_tempo_textview_valor_retorno"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/calc_roi_tempo_edit_text_valor_retorno"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de meses para retorno:"
+        android:layout_marginTop="10dp"
+        android:id="@+id/calc_roi_tempo_textview_qntd_meses"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/calc_roi_tempo_edit_text_qntd_meses"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO"
+        android:layout_marginTop="10dp"
+        android:id="@+id/calc_roi_tempo_textview_resultado"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:id="@+id/calc_roi_tempo_print_resultado"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/calc_roi_tempo_button_calcular"/>
+
+</LinearLayout>

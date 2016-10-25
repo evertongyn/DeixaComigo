@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular ROI simples"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_main_roi_simples"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular ROI com correção de tempo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_main_roi_tempo"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular ROI com fluxo de caixa"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_main_roi_fluxo_caixa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular ROI considerando perpetuidade"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_main_roi_perpetuidade"/>
+
+</LinearLayout>
